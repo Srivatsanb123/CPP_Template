@@ -15,7 +15,7 @@ using namespace std;
 #define pb push_back
 #define eb emplace_back
 #define print cout<<
-#define input(x) cin >> (x)
+#define inp cin>>
 template <class T>
 void printv(vector<T> &v) { for (auto x : v) cout << x << " "; }
 #define MOD 1000000007
@@ -40,9 +40,9 @@ typedef unsigned long long int  uint64;
 int main()
 {
     int t;
-    input(t);
-        while(t--){
-            print t;
-        }
+    cin>>t;
+    while(t--){
+        //your code here
+    }
 }
 ```
