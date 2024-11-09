@@ -14,8 +14,8 @@ using namespace std;
 #define rf(i,e,s) for(long long int i=e-1;i>=s;i--)
 #define pb push_back
 #define eb emplace_back
-#define print cout<<
-#define inp cin>>
+#define print(x) cout<< (x)
+#define input(x) cin>> (x)
 template <class T>
 void printv(vector<T> &v) { for (auto x : v) cout << x << " "; }
 #define MOD 1000000007
