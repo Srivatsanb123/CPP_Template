@@ -14,7 +14,7 @@ using namespace std;
 #define rf(i,e,s) for(long long int i=e-1;i>=s;i--)
 #define pb push_back
 #define eb emplace_back
-#define print cout <<
+#define print cout<<
 #define input(x) cin >> (x)
 template <class T>
 void printv(vector<T> &v) { for (auto x : v) cout << x << " "; }
@@ -39,7 +39,10 @@ typedef unsigned long long int  uint64;
 
 int main()
 {
-    int a;
-    print sizeof(a);
+    int t;
+    input(t);
+        while(t--){
+            print t;
+        }
 }
 ```
