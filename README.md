@@ -3,7 +3,6 @@
 using namespace std;
 
 #define ll long long
-#define int long long // If all integers are expected to be long long, uncomment this
 #define pii pair<int, int>
 #define pll pair<long long, long long>
 #define vi vector<int>
@@ -19,7 +18,7 @@ using namespace std;
 #define dq deque<int>
 #define pb push_back
 #define eb emplace_back
-#define all(x) (x).begin(), (x).end() // For easier sorting and other operations
+#define all(x) (x).begin(), (x).end()
 #define rall(x) (x).rbegin(), (x).rend()
 #define F first
 #define S second
@@ -76,4 +75,5 @@ int32_t main() {
     }
     return 0;
 }
+
 ```
