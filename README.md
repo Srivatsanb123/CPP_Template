@@ -1,48 +1,80 @@
 ```cpp
 #include <bits/stdc++.h>
 using namespace std;
+
 #define ll long long
+#define int long long // If all integers are expected to be long long, uncomment this
 #define pii pair<int, int>
 #define pll pair<long long, long long>
 #define vi vector<int>
+#define vvi vector<vector<int>>
 #define vll vector<long long>
+#define vvll vector<vector<long long>>
 #define mii map<int, int>
+#define umii unordered_map<int, int>
 #define si set<int>
 #define sc set<char>
-#define f(i,s,e) for(long long int i=s;i<e;i++)
-#define cf(i,s,e) for(long long int i=s;i<=e;i++)
-#define rf(i,e,s) for(long long int i=e-1;i>=s;i--)
+#define qi queue<int>
+#define pq priority_queue<int>
+#define dq deque<int>
 #define pb push_back
 #define eb emplace_back
-#define print(x) cout<< (x)
-#define input(x) cin>> (x)
-template <class T>
-void printv(vector<T> &v) { for (auto x : v) cout << x << " "; }
+#define all(x) (x).begin(), (x).end() // For easier sorting and other operations
+#define rall(x) (x).rbegin(), (x).rend()
+#define F first
+#define S second
 #define MOD 1000000007
+#define INF 1e18
 #define PI 3.1415926535897932384626433832795
-#define read(type) readInt<type>()
-ll min(ll a,int b) { if (a<b) return a; return b; }
-ll min(int a,ll b) { if (a<b) return a; return b; }
-ll max(ll a,int b) { if (a>b) return a; return b; }
-ll max(int a,ll b) { if (a>b) return a; return b; }
-ll gcd(ll a,ll b) { if (b==0) return a; return gcd(b, a%b); }
-ll lcm(ll a,ll b) { return a/gcd(a,b)*b; }
-string to_upper(string a) { for (int i=0;i<(int)a.size();++i) if (a[i]>='a' && a[i]<='z') a[i]-='a'-'A'; return a; }
-string to_lower(string a) { for (int i=0;i<(int)a.size();++i) if (a[i]>='A' && a[i]<='Z') a[i]+='a'-'A'; return a; }
-bool isprime(ll a) { if (a==1) return 0; for (int i=2;i<=round(sqrt(a));++i) if (a%i==0) return 0; return 1; }
-void yes() { cout<<"YES\n"; }
-void no() { cout<<"NO\n"; }
-typedef unsigned long int uint32;
-typedef long long int int64;
-typedef unsigned long long int  uint64;
 
+// Loop macros
+#define f(i, s, e) for (long long int i = s; i < e; i++)
+#define cf(i, s, e) for (long long int i = s; i <= e; i++)
+#define rf(i, e, s) for (long long int i = e - 1; i >= s; i--)
 
-int main()
-{
-    int t;
-    cin>>t;
-    while(t--){
-        //your code here
-    }
+// I/O macros
+#define print(x) cout << (x)
+#define input(x) cin >> (x)
+#define yes() cout << "YES\n"
+#define no() cout << "NO\n"
+
+// Fast I/O
+#define FAST_IO ios_base::sync_with_stdio(false); cin.tie(NULL);
+
+// Utility function templates
+template <class T>
+void printv(const vector<T> &v) { for (auto x : v) cout << x << " "; cout << '\n'; }
+
+// Debugging macro
+#define debug(x) cerr << #x << " = " << (x) << endl
+
+// GCD and LCM
+ll gcd(ll a, ll b) { return b == 0 ? a : gcd(b, a % b); }
+ll lcm(ll a, ll b) { return (a / gcd(a, b)) * b; }
+
+// Prime check function
+bool isprime(ll a) {
+    if (a <= 1) return false;
+    for (int i = 2; i * i <= a; ++i)
+        if (a % i == 0) return false;
+    return true;
 }
+
+// Custom comparator (example usage in sort function)
+struct custom_compare {
+    bool operator()(const pii &a, const pii &b) const {
+        return a.second < b.second; // Example: sorting by the second element of pairs
+    }
+};
+
+int32_t main() {
+    FAST_IO;
+    int t;
+    cin >> t;
+    while (t--) {
+        // Code logic here
+    }
+    return 0;
+}
+
 ```
