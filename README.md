@@ -9,8 +9,9 @@ using namespace std;
 #define vvi vector<vector<int>>
 #define vll vector<long long>
 #define vvll vector<vector<long long>>
-#define mii map<int, int>
-#define umii unordered_map<int, int>
+#define umi unordered_map<int, int>
+#define umc unordered_map<int, int>
+#define ums unordered_map<int, int>
 #define si set<int>
 #define sc set<char>
 #define qi queue<int>
@@ -62,18 +63,26 @@ bool isprime(ll a) {
 // Custom comparator (example usage in sort function)
 struct custom_compare {
     bool operator()(const pii &a, const pii &b) const {
-        return a.second < b.second; // Example: sorting by the second element of pairs
+        return a.second < b.second;
     }
 };
 
-int32_t main() {
-    FAST_IO;
+void solvet()
+{
     int t;
-    cin >> t;
-    while (t--) {
-        // Code logic here
+    cin>>t;
+    while(t--){
+        //your code here
     }
-    return 0;
 }
 
+void solve(){
+    //your code here
+}
+
+int32_t main() {
+    FAST_IO;
+    solve();
+    return 0;
+}
 ```
