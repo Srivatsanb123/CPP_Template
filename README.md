@@ -52,6 +52,7 @@ using namespace std;
 
 // Utility function templates
 template <class T>
+void printvp(const vector<T> &v) { for (auto x : v) cout << x.f<<" "<<x.s << '\n'; }
 void printv(const vector<T> &v) { for (auto x : v) cout << x << " "; cout << '\n'; }
 
 // Debugging macro
