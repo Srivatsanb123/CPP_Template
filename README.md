@@ -3,15 +3,18 @@
 using namespace std;
 
 #define ll long long
+#define ll long long
 #define pii pair<int, int>
 #define pll pair<long long, long long>
 #define vi vector<int>
+#define vc vector<char>
+#define vs vector<string>
 #define vvi vector<vector<int>>
 #define vll vector<long long>
 #define vvll vector<vector<long long>>
 #define umi unordered_map<int, int>
-#define umc unordered_map<char, int>
-#define ums unordered_map<string, int>
+#define umc unordered_map<int, int>
+#define ums unordered_map<int, int>
 #define si set<int>
 #define sc set<char>
 #define qi queue<int>
