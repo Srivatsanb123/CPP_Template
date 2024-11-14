@@ -10,8 +10,8 @@ using namespace std;
 #define vll vector<long long>
 #define vvll vector<vector<long long>>
 #define umi unordered_map<int, int>
-#define umc unordered_map<int, int>
-#define ums unordered_map<int, int>
+#define umc unordered_map<char, int>
+#define ums unordered_map<string, int>
 #define si set<int>
 #define sc set<char>
 #define qi queue<int>
@@ -21,16 +21,20 @@ using namespace std;
 #define eb emplace_back
 #define all(x) (x).begin(), (x).end()
 #define rall(x) (x).rbegin(), (x).rend()
-#define F first
-#define S second
+#define f first
+#define s second
 #define MOD 1000000007
 #define INF 1e18
 #define PI 3.1415926535897932384626433832795
 
 // Loop macros
-#define f(i, s, e) for (long long int i = s; i < e; i++)
-#define cf(i, s, e) for (long long int i = s; i <= e; i++)
-#define rf(i, e, s) for (long long int i = e - 1; i >= s; i--)
+#define fl(i, s, e) for (long long int i = s; i < e; i++)
+#define cfl(i, s, e) for (long long int i = s; i <= e; i++)
+#define rfl(i, e, s) for (long long int i = e - 1; i >= s; i--)
+
+#define fi(i, s, e) for (int i = s; i < e; i++)
+#define cfi(i, s, e) for (int i = s; i <= e; i++)
+#define rfi(i, e, s) for (int i = e - 1; i >= s; i--)
 
 // I/O macros
 #define print(x) cout << (x)
@@ -73,6 +77,7 @@ void solvet()
     cin>>t;
     while(t--){
         //your code here
+        
     }
 }
 
@@ -82,7 +87,7 @@ void solve(){
 
 int32_t main() {
     FAST_IO;
-    solve();
+    solvet();
     return 0;
 }
 ```
