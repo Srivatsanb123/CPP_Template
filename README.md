@@ -9,12 +9,14 @@ using namespace std;
 #define vi vector<int>
 #define vc vector<char>
 #define vs vector<string>
-#define vvi vector<vector<int>>
 #define vll vector<long long>
+#define vvi vector<vector<int>>
+#define vvc vector<vector<char>>
+#define vvs vector<vector<string>>
 #define vvll vector<vector<long long>>
 #define umi unordered_map<int, int>
-#define umc unordered_map<int, int>
-#define ums unordered_map<int, int>
+#define umc unordered_map<char, int>
+#define ums unordered_map<string, int>
 #define si set<int>
 #define sc set<char>
 #define qi queue<int>
