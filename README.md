@@ -3,46 +3,24 @@
 using namespace std;
 
 #define ll long long
-#define ll long long
 #define pii pair<int, int>
 #define pll pair<long long, long long>
-#define vi vector<int>
-#define vc vector<char>
-#define vs vector<string>
-#define vll vector<long long>
 #define vvi vector<vector<int>>
 #define vvc vector<vector<char>>
 #define vvs vector<vector<string>>
 #define vvll vector<vector<long long>>
 #define umi unordered_map<int, int>
 #define umc unordered_map<char, int>
-#define ums unordered_map<string, int>
-#define si set<int>
-#define sc set<char>
-#define qi queue<int>
-#define pq priority_queue<int>
-#define dq deque<int>
 #define pb push_back
 #define eb emplace_back
 #define all(x) (x).begin(), (x).end()
 #define rall(x) (x).rbegin(), (x).rend()
-#define f first
-#define s second
 #define MOD 1000000007
 #define INF 1e18
 #define PI 3.1415926535897932384626433832795
 
-// Loop macros
-#define fl(i, s, e) for (long long int i = s; i < e; i++)
-#define cfl(i, s, e) for (long long int i = s; i <= e; i++)
-#define rfl(i, e, s) for (long long int i = e - 1; i >= s; i--)
-
-#define fi(i, s, e) for (int i = s; i < e; i++)
-#define cfi(i, s, e) for (int i = s; i <= e; i++)
-#define rfi(i, e, s) for (int i = e - 1; i >= s; i--)
-
 // I/O macros
-#define print(x) cout << (x)
+#define print(x) cout << (x) <<" "
 #define input(x) cin >> (x)
 #define yes() cout << "YES\n"
 #define no() cout << "NO\n"
@@ -52,12 +30,9 @@ using namespace std;
 
 // Utility function templates
 template <class T>
-void printvp(const vector<T> &v) { for (auto x : v) cout << x.f<<" "<<x.s << '\n'; }
+void printmp(const vector<T> &v) { for (auto x : v) cout << x.f<<" "<<x.s << '\n'; }
 template <class T>
 void printv(const vector<T> &v) { for (auto x : v) cout << x << " "; cout << '\n'; }
-
-// Debugging macro
-#define debug(x) cerr << #x << " = " << (x) << endl
 
 // GCD and LCM
 ll gcd(ll a, ll b) { return b == 0 ? a : gcd(b, a % b); }
@@ -90,6 +65,7 @@ void solvet()
 
 void solve(){
     //your code here
+    
 }
 
 int32_t main() {
