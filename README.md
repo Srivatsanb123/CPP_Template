@@ -21,6 +21,7 @@ using namespace std;
 
 // I/O macros
 #define print(x) cout << (x) <<" "
+#define println(x) cout << (x) <<"\n"
 #define input(x) cin >> (x)
 #define yes() cout << "YES\n"
 #define no() cout << "NO\n"
