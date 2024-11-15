@@ -55,9 +55,9 @@ struct custom_compare {
 
 void solvet()
 {
-    int t;
-    cin>>t;
-    while(t--){
+    int T;
+    cin>>T;
+    while(T--){
         //your code here
         
     }
