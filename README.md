@@ -7,7 +7,7 @@ using namespace std;
 #define pi pair<int, int>
 #define pll pair<long long, long long>
 #define vi vector<int>
-#define vc vector<char>
+#define vc vector<char> 
 #define vs vector<string>
 #define vll vector<ll>
 #define umi unordered_map<int, int>
@@ -25,9 +25,9 @@ using namespace std;
 #define yes() cout << "YES\n"
 #define no() cout << "NO\n"
 #define FAST_IO ios_base::sync_with_stdio(false); cin.tie(NULL);
-template <class T> void printmp(const vector<T> &v) { for (auto x : v) cout << x.f<<" "<<x.s << '\n'; }
-template <class T> void printv(const vector<T> &v) { for (auto x : v) cout << x << " "; cout << '\n'; }
-template <class T> void inputv(vector<T> &v, int n) { v.resize(n); for (int i = 0; i < n; ++i) cin >> v[i]; }
+template <class T> void printmp(vector<T> &v) { for (auto x : v) cout << x.f<<" "<<x.s << '\n'; }
+template <class T> void printv(vector<T> &v) { for (auto x : v) cout << x << " "; cout << '\n'; }
+template <class T> void inputv(vector<T> &v, int n) { for (int i = 0; i < n; ++i) cin >> v[i]; }
 
 void solvet();
 void solve();
