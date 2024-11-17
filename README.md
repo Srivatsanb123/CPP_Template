@@ -20,7 +20,7 @@ using namespace std;
 #define yes cout << "YES\n"
 #define no cout << "NO\n"
 #define FAST_IO ios_base::sync_with_stdio(false); cin.tie(NULL);
-template <class T> void printmp(umi<T,T> &mp) { for (auto x : mp) cout << x.first<<" "<<x.second << '\n'; }
+template <class T> void printmp(unordered_map<T, T> &mp) { for (auto x : mp) cout << x.first<<" "<<x.second << '\n'; }
 template <class T> void printv(vector<T> &v) { for (auto x : v) cout << x << " "; cout << '\n'; }
 template <class T> void inputv(vector<T> &v, int n) { v.resize(n); for (int i = 0; i < n; ++i) cin >> v[i]; }
 
