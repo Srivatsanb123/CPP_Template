@@ -46,6 +46,5 @@ void solvet()
 }
 
 void solve(){
-    
 }
 ```
