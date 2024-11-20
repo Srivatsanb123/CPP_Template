@@ -29,11 +29,19 @@ template <class T> void inputv(vector<T> &v, int n) { v.resize(n); for (int i = 
 void solvet();
 void solve();
 
-int32_t main() {
-    FAST_IO;
-    //solve();
-    //solvet();
-    return 0;
+int32_t main()
+{
+	FAST_IO;
+    #ifdef SB
+        freopen("input.txt", "r", stdin);
+        freopen("output.txt", "w", stdout);
+        auto _clock_start = chrono::high_resolution_clock::now();
+    #endif
+    // solve();
+    // solvet();
+    #ifdef SB
+        cout << "---------------------\nExecuted in " << chrono::duration_cast<chrono::milliseconds>(chrono::high_resolution_clock::now() - _clock_start).count() << "ms." << endl;
+    #endif
 }
 
 void solvet()
