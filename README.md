@@ -22,7 +22,7 @@ using namespace std;
 #define FAST_IO ios_base::sync_with_stdio(false); cin.tie(NULL);
 template <typename T1, typename T2> using ump = std::unordered_map<T1, T2>;
 template <typename T> using pq = std::priority_queue<T>;
-template <class T> void printmp(unordered_map<T, T> &mp) { for (auto x : mp) cout << x.first<<" "<<x.second << '\n'; }
+template <typename T1, typename T2> void printmp(unordered_map<T1, T2> &mp) { for (auto x : mp) cout << x.first<<" "<<x.second << '\n'; }
 template <class T> void printv(vector<T> &v) { for (auto x : v) cout << x << " "; cout << '\n'; }
 template <class T> void inputv(vector<T> &v, int n) { v.resize(n); for (int i = 0; i < n; ++i) cin >> v[i]; }
 
